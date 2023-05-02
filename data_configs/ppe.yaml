@@ -1,0 +1,17 @@
+# Images and labels direcotry should be relative to train.py
+TRAIN_DIR_IMAGES: '/Users/emere_10/Desktop/TMBData_FRCNN/data/trash/train'
+TRAIN_DIR_LABELS: '/Users/emere_10/Desktop/TMBData_FRCNN/data/trash/train'
+VALID_DIR_IMAGES: '/Users/emere_10/Desktop/TMBData_FRCNN/data/trash/test'
+VALID_DIR_LABELS: 'd/Users/emere_10/Desktop/TMBData_FRCNN/data/trash/test'
+
+# Class names.
+CLASSES: [
+    '__background__',
+    'plastic', 'glass', 'paper', 'metal', 'randomTrash', 'foam'
+]
+
+# Number of classes (object classes + 1 for background class in Faster RCNN).
+NC: 7
+
+# Whether to save the predictions of the validation set while training.
+SAVE_VALID_PREDICTION_IMAGES: True
